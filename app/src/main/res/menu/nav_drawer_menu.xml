@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/general">
+        <menu>
+            <item
+                android:id="@+id/item_profil"
+                android:icon="@drawable/ic_profil"
+                android:title="@string/profil" />
+
+            <item
+                android:id="@+id/item_bmi"
+                android:icon="@drawable/ic_bmi"
+                android:title="@string/calculator_bmi" />
+
+            <item
+                android:id="@+id/item_documente_personale"
+                android:icon="@drawable/ic_documente"
+                android:title="@string/documente_personale" />
+        </menu>
+    </item>
+
+    <item android:title="@string/contact">
+        <menu>
+            <item
+                android:id="@+id/item_feedback_aplicatie"
+                android:icon="@drawable/ic_email"
+                android:title="@string/feedback_aplicatie" />
+
+            <item
+                android:id="@+id/item_despre_noi"
+                android:icon="@drawable/ic_despre"
+                android:title="@string/title_despre_noi" />
+        </menu>
+    </item>
+
+</menu>

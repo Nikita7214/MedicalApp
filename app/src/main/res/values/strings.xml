@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">MedicalAppLicenta</string>
+    <string name="open_toggle">Open</string>
+    <string name="close_toggle">Close</string>
+    <string name="entitate_specialitati">Specialitati</string>
+    <string-array name="grupe_sange">
+        <item>Necunoscută</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="grade_profesionale">
+        <item>Nespecificat</item>
+        <item>Medic generalist</item>
+        <item>Medic rezident</item>
+        <item>Medic specialist</item>
+        <item>Medic primar</item>
+        <item>Psiholog</item>
+    </string-array>
+    <string-array name="zile_saptamana">
+        <item>luni</item>
+        <item>marți</item>
+        <item>miercuri</item>
+        <item>joi</item>
+        <item>vineri</item>
+    </string-array>
+    <string-array name="ani">
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
+    <string-array name="statusuri_facturi">
+        <item>Toate</item>
+        <item>Achitate</item>
+        <item>Neachitate</item>
+        <item>Anulate</item>
+    </string-array>
+    <string name="pattern_email_medic">^([A-Za-z0-9._]+)(@clinica-medicala\\.ro)$</string>
+    <string name="pattern_numar_telefon">^07[2-8][0-9]{7}$</string>
+    <string name="pattern_cnp">^[1-9]\\d{2}(0[1-9]|1[0-2])(0[1-9]|[12]\\d|3[01])(0[1-9]|[1-4]\\d|5[0-2]|99)(00[1-9]|0[1-9]\\d|[1-9]\\d\\d)\\d$</string>
+    <string name="pattern_greutate">^[1-9][0-9]\\.[0-9]$</string>
+    <string name="pattern_inaltime">^([1-2]\\.([0-9]{2}|[0-9]{1}))$</string>
+    <string name="pattern_data_expirarii">^([0][1-9]|[1-2][0-9]|[3][0-1])/([2][2-9]|[3][0-5])$</string>
+    <string name="email_mandatory">Email <font color="#FF0000">*</font> </string>
+    <string name="email">Email</string>
+    <string name="parola">Parola <font color="#FF0000">*</font> </string>
+    <string name="greeting_message">Bine ai (re)venit!</string>
+    <string name="conectare_pacient">Conectare pacient</string>
+    <string name="forgot_password">Am uitat parola</string>
+    <string name="remember_me">Rămâi autentificat(ă)</string>
+    <string name="login">Intră în cont</string>
+    <string name="create_account">Nu ai cont? Înregistrează-te</string>
+    <string name="sunt_medic">Sunt medic</string>
+    <string name="icon_pacient">Icon pacient</string>
+    <string name="icon_medic">Icon medic</string>
+    <string name="necunoscut">Necunoscută</string>
+    <string name="nume">Nume <font color="#FF0000">*</font></string>
+    <string name="prenume">Prenume <font color="#FF0000">*</font></string>
+    <string name="cnp">CNP <font color="#FF0000">*</font></string>
+    <string name="numar_de_telefon_mandatory">Număr de telefon <font color="#FF0000">*</font></string>
+    <string name="numar_de_telefon">Număr de telefon</string>
+    <string name="adresa">Adresa</string>
+    <string name="data_nasterii_mandatory">Data nașterii <font color="#FF0000">*</font></string>
+    <string name="data_nasterii">Data nașterii</string>
+    <string name="selectati_data">Selectați data</string>
+    <string name="greutate">Greutate</string>
+    <string name="inaltime">Înălțime</string>
+    <string name="confirmati_parola">Confirmați parola <font color="#FF0000">*</font></string>
+    <string name="register">Creează cont</string>
+    <string name="grupa_de_sange">Grupa de sânge</string>
+    <string name="atentionare">Câmpurile marcate cu <font color="#FF0000">*</font> sunt obligatorii!</string>
+    <string name="err_empty_nume">Introduceți numele!</string>
+    <string name="err_empty_prenume">Introduceți prenumele!</string>
+    <string name="err_empty_cnp">Introduceți CNP-ul!</string>
+    <string name="err_not_valid_cnp">CNP-ul nu este valid!</string>
+    <string name="err_empty_telefon">Introduceți numărul de telefon!</string>
+    <string name="err_not_valid_telefon">Formatul acceptat este: 07xxxxxxxx!</string>
+    <string name="err_empty_data_nasterii">Alegeți data nașterii!</string>
+    <string name="err_not_valid_data_nasterii">Data nașterii nu corespunde cu CNP-ul!</string>
+    <string name="default_empty_double">0.0</string>
+    <string name="err_not_valid_greutate">Introduceți o greutate validă! (de ex: 45.7)</string>
+    <string name="err_not_valid_inaltime">Introduceți un o înălțime validă! (de ex: 1.65)</string>
+    <string name="err_empty_email">Introduceți emailul!</string>
+    <string name="err_not_valid_email">Introduceți un email valid!</string>
+    <string name="err_empty_parola">Introduceți parola!</string>
+    <string name="err_not_valid_parola">Parola trebuie să conțină cel puțin 6 caractere!</string>
+    <string name="err_empty_confirmare_parola">Reintroduceți parola!</string>
+    <string name="err_not_valid_confirmare_parola">Cele 2 parole nu corespund!</string>
+    <string name="err_empty_nume_titular">Introduceți numele titularului!</string>
+    <string name="err_empty_numar_card">Introduceți numărul cardului!</string>
+    <string name="err_not_valid_numar_card">Introduceți un număr de card valid!</string>
+    <string name="err_empty_data_expirarii">Introduceți data expirării!</string>
+    <string name="err_not_valid_data_expirarii">Introduceți o dată validă în formatul MM/yy!</string>
+    <string name="err_empty_cvv">Introduceți codul CVV/CVC!</string>
+    <string name="err_not_valid_cvv">Introduceți un CVV/CVC valid!</string>
+    <string name="varsta">Vârsta</string>
+    <string name="sex">Sex</string>
+    <string name="modifica_date_personale">Modifică date personale</string>
+    <string name="salveaza">Salvează</string>
+    <string name="renunta">Renunță</string>
+    <string name="schimba_parola">Schimbă parola</string>
+    <string name="sterge_contul">Șterge contul</string>
+    <string name="parola_actuala">Parola actuală</string>
+    <string name="parola_noua">Parola nouă</string>
+    <string name="confirmati_noua_parola">Confirmați noua parolă</string>
+    <string name="schimba_email">Schimbă email</string>
+    <string name="email_nou">Email nou <font color="#FF0000">*</font></string>
+    <string name="mesaj_stergere_cont">Sigur doriți să vă ștergeți <b>definitiv</b> contul?</string>
+    <string name="da">Da</string>
+    <string name="nu">Nu</string>
+    <string name="title_home">Home</string>
+    <string name="medici">Medici</string>
+    <string name="investigatii_si_preturi">Investigații și prețuri</string>
+    <string name="programari">Programări</string>
+    <string name="facturi">Facturi</string>
+    <string name="profil">Profil</string>
+    <string name="logout">Ieși din cont</string>
+    <string name="feedback_aplicatie">Feedback aplicație</string>
+    <string name="title_despre_noi">Despre noi</string>
+    <string name="call_center">Call Center</string>
+    <string name="title_medici">Medici</string>
+    <string name="toate_specialitatile">Toate specialitățile</string>
+    <string name="specialitate">Specialitate</string>
+    <string name="specialitate_medic">Specialitate <font color="#FF0000">*</font></string>
+    <string name="err_empty_specialitate">Selectați specialitatea</string>
+    <string name="selectati_o_specialitate">Selectați o specialitate</string>
+    <string name="info_investigatii">Pentru a putea vizualiza informații despre investigații vă rugăm să selectați o specialitate</string>
+    <string name="icon_specialitati">Icon specialitati</string>
+    <string name="title_programare_noua">Programare nouă</string>
+    <string name="data_programarii">Data programării</string>
+    <string name="investigatie">Investigație</string>
+    <string name="selectati_investigatia">Selectați investigația</string>
+    <string name="ore_disponibile">Ore disponibile</string>
+    <string name="info_selectare_data">Pentru a vizualiza orele disponibile vă rugăm să selectați data dorită pentru programare</string>
+    <string name="istoric">Istoric</string>
+    <string name="viitoare">Viitoare</string>
+    <string name="icon_indisponibil">Icon indisponibil</string>
+    <string name="nicio_programare">Nu s-au găsit programări</string>
+    <string name="adauga_programare">Adauga programare</string>
+    <string name="icon_programari">Icon programari</string>
+    <string name="valoare">Valoare:</string>
+    <string name="data_emiterii">Data emiterii:</string>
+    <string name="data_scadenta">Data scadentă:</string>
+    <string name="err_empty_investigatie">Selectați investigația dorită!</string>
+    <string name="nota">Notă</string>
+    <string name="program">Program</string>
+    <string name="email_medic">Email</string>
+    <string name="programeaza">Programează-te</string>
+    <string name="conectare_medic">Conectare medic</string>
+    <string name="sunt_pacient">Sunt pacient</string>
+    <string name="err_not_valid_email_doctor">Introduceți emailul oficial (de forma adresa@clinica-medicala.ro)!</string>
+    <string name="err_conectare_medic">Vă rugăm să vă conectați din pagina medicului!</string>
+    <string name="err_credentiale">Credențiale invalide!</string>
+    <string name="numar_de_telefon_opt">Număr de telefon</string>
+    <string name="grad_profesional">Grad profesional</string>
+    <string name="title_profil">Profil</string>
+    <string name="nespecificat">Nespecificat</string>
+    <string name="program_lucru">Program lucru <font color="#FF0000">*</font> </string>
+    <string name="zi_de_lucru">Zi de lucru</string>
+    <string name="ora_de_sfarsit">Ora de sfârșit</string>
+    <string name="ora_de_inceput">Ora de început</string>
+    <string name="adauga">Adaugă</string>
+    <string name="err_empty_program_lucru">Completați programul de lucru!</string>
+    <string name="elimina">Elimină</string>
+    <string name="status_onorata">onorată</string>
+    <string name="status_neonorata">neonorată</string>
+    <string name="status_noua">nouă</string>
+    <string name="status_anulata">anulată</string>
+    <string name="status_necompletat">completează status</string>
+    <string name="calculator_bmi">Calculator BMI</string>
+    <string name="cm">cm</string>
+    <string name="calculeaza_bmi">Calculează BMI</string>
+    <string name="kg">kg</string>
+    <string name="bmi_subponderal">Subponderal</string>
+    <string name="bmi_normoponderal">Normoponderal</string>
+    <string name="bmi_supraponderal">Supraponderal</string>
+    <string name="bmi_obezitate1">Obezitate de grad I</string>
+    <string name="bmi_obezitate2">Obezitate de grad II</string>
+    <string name="bmi_obezitate_morbida">Obezitate morbidă</string>
+    <string name="greutate_minima">30,0</string>
+    <string name="inaltime_minima">100</string>
+    <string name="icon_plus">Icon plus</string>
+    <string name="icon_minus">Icon minus</string>
+    <string name="icon_bmi">Icon BMI</string>
+    <string name="pacienti">Pacienți</string>
+    <string name="niciun_pacient">Nu s-au găsit pacienți</string>
+    <string name="nicio_ora">Nu s-au găsit ore disponibile</string>
+    <string name="acorda_feedback">Acordă feedback</string>
+    <string name="trimite">Trimite</string>
+    <string name="recenzie">Câteva cuvinte despre experiența avută</string>
+    <string name="feedback_pacienti">Feedback pacienți</string>
+    <string name="niciun_feedback">Nu s-a găsit niciun feedback</string>
+    <string name="recenzie_">Recenzie</string>
+    <string name="nota1">1</string>
+    <string name="nota2">2</string>
+    <string name="nota3">3</string>
+    <string name="nota4">4</string>
+    <string name="nota5">5</string>
+    <string name="nota6">6</string>
+    <string name="nota7">7</string>
+    <string name="nota8">8</string>
+    <string name="nota9">9</string>
+    <string name="nota10">10</string>
+    <string name="notificari">Notificări</string>
+    <string name="programare_anulata">Programare anulată</string>
+    <string name="programare_noua">Programare nouă</string>
+    <string name="nicio_notificare">Nu aveți nicio notificare</string>
+    <string name="inregistrare_medic">Înregistrare medic</string>
+    <string name="inregistrare_pacient">Înregistrare pacient</string>
+    <string name="plateste">Plătește</string>
+    <string name="achitata">achitată</string>
+    <string name="neachitata">neachitată</string>
+    <string name="nume_titular">Nume titular</string>
+    <string name="numar_card">Număr card</string>
+    <string name="data_expirarii">Data expirării</string>
+    <string name="cvv_cvc">CVV/CVC</string>
+    <string name="cnp_">CNP:</string>
+    <string name="ultima_programare_onorata">Ultima programare onorată:</string>
+    <string name="chat">Chat</string>
+    <string name="conversatii">Conversații</string>
+    <string name="conversatie_noua">Conversatie noua</string>
+    <string name="nicio_conversatie">Nu aveți nicio conversație</string>
+    <string name="scrie_un_mesaj">Scrie un mesaj…</string>
+    <string name="trimite_mesaj">Trimite mesaj</string>
+    <string name="title_facturi">Facturi</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="contact">Contact</string>
+    <string name="incasari">Încasări</string>
+    <string name="title_incasari_lunare">Încasări lunare</string>
+    <string name="mesaj_citit">Văzut</string>
+    <string name="mesaj_livrat">Livrat</string>
+    <string name="exporta_date">Exportă date</string>
+    <string name="title_conversatie_noua">Conversație nouă</string>
+    <string name="documente_personale">Documente personale</string>
+    <string name="niciun_document_atasat">Niciun document atașat</string>
+    <string name="card_de_sanatate">Card de sănătate</string>
+    <string name="buletin">Buletin</string>
+    <string name="text_normoponderal">Felicitări! Ai o greutate normală, proporțională cu înălțimea ta. Îți recomandăm să te consulți cu unul din medicii noștri pentru a te ajuta să-ți menții un stil de viață sănătos și să efectuezi o serie de analize pentru a te asigura că totul este în regulă în organismul tău.</string>
+    <string name="text_subponderal">Subponderalitatea implică o greutate mai mică decât este cea considerată normală pentru o anumită înălțime. Aceasta afectează creșterea și dezvoltarea corpului, poate cauza infertilitate, oboseală, lipsa concentrației, anemie, dar poate afecta și capacitatea organismului de termoreglare. Din cauza răspunsului imun scăzut, persoanele subponderale sunt mai puțin rezistente la infecții și boli. Consultă-te cu unul din medicii noștri pentru stabilirea unui regim potrivit.</string>
+    <string name="text_supraponderal">Supraponderalitatea implică o greutate mai mare decât este cea considerată normală pentru o anumită înălțime. Riscurile la care ești expus sunt depresia și hipertensiunea arterială. Supraponderalitatea poate fi combatută prin sport și reducerea consumului de calorii, înainte a ajunge la gradul 1 de obezitate. Consultă-te cu unul din medicii noștri pentru stabilirea unui regim potrivit nevoilor tale.</string>
+    <string name="text_obezitate1">Obezitatea este o boală metabolică caracterizată de țesutul adipos excesiv, ce crește riscul de diabet, hipertensiune, boli cardiovasculare, pietre la nivelul vezicii biliare și alte boli cronice. Cu cât gradul de obezitate este mai mare, cu atât riscurile devin și mai mari. Pentru obezitatea de grad 1 se recomandă tratamentul nechirurgical: activitatea fizică și regimul alimentar. Consultă-te cu unul din medicii noștri pentru stabilirea unui regim potrivit nevoilor tale.</string>
+    <string name="text_obezitate2">Obezitatea de grad 2 este considerată severă și pune viața pacientului în pericol. Printre cele mai grave riscuri se numără: hipertensiunea, colesterol mărit, diabet, afecțiuni cardiace, infarct. Obezitatea severă trebuie tratată cu ajutorul unei echipe de specialiști, alcatuită atât din medic generalist, medic nutriționist, antrenor de fitness, cât și medic gastroenterolog și psiholog. În anumite cazuri, chirurgia bariatrică poate reprezenta o metodă de tratament.</string>
+    <string name="text_obezitate3">Obezitatea de grad 3, denumită și obezitate morbidă, este o problemă de sănătate gravă. Calitatea vieții pacienților care suferă de obezitate morbidă este afectată, fiind expuși unor riscuri precum diabetul, hipertensiunea, refluxul gastroesofagian, pietrele la vezica biliara, afectiunile cardiace sau cancerul. Obezitatea morbidă poate fi tratată prin schimbarea radicală a stilului de viață și alimentației cu ajutorul unui specialist sau prin intervenție chirurgicală.</string>
+    <string name="niciun_medic">Nu s-a găsit niciun medic.</string>
+    <string name="cauta_pacient">Caută pacient…</string>
+    <string name="cauta_medic">Caută medic…</string>
+    <string name="reseteaza_parola">Resetează parola</string>
+    <string name="ataseaza_reteta">Atașează rețetă</string>
+    <string name="descarca_reteta">Descarcă rețetă</string>
+    <string name="pd_incarcare_document">Se încarcă documentul…</string>
+    <string name="general">General</string>
+    <string name="cauta_investigatie">Caută investigație…</string>
+    <string name="nicio_investigatie">Nu s-a găsit nicio investigație</string>
+    <string name="title_selectati_medicul">Selectați medicul</string>
+    <string name="descarcare_document">Se descarcă documentul…</string>
+    <string name="nicio_factura">Nu s-au găsit facturi</string>
+    <string name="toate">Toate</string>
+    <string name="_2022">2022</string>
+    <string name="vizualizeaza_graficul_notelor">Vizualizează graficul notelor</string>
+    <string name="title_incasari_totale_pacienti">Încasări totale pacienți</string>
+    <string name="observatie_piechart">Observație: notele care nu apar în grafic nu au fost acordate de către niciun pacient.</string>
+    <string name="title_total_note_feedback">Total note feedback</string>
+    <string name="vizualizeaza_incasari_pacienti">Vizualizează încasări pacienți</string>
+    <string name="title_plati_lunare">Plăți lunare</string>
+    <string name="document_incarcat">Documentul a fost încărcat cu succes!</string>
+</resources>

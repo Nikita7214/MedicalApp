@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--Ca sa fac un toolbar customizat schimb tema aici-->
+    <!--daca telefonul e pe night mode trb sa schimb in celalat fisier-->
+    <style name="Theme.MedicalAppLicenta" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/custom_blue</item>
+        <item name="colorPrimaryVariant">@color/custom_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/custom_blue</item> <!-- culoare de outline pt fab -->
+        <item name="colorSecondaryVariant">@color/custom_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

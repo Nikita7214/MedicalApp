@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@color/custom_blue" />
+
+    <TextView
+        android:id="@+id/tvNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="@string/nota"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+    <RadioGroup
+        android:id="@+id/rgNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNota"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota1"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota2"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota3"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota4"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota5"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota6"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota7"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota8"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota9"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+
+        <RadioButton
+            android:id="@+id/rb10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_nota_selector"
+            android:button="@android:color/transparent"
+            android:text="@string/nota10"
+            android:textAlignment="center"
+            android:textColor="@drawable/radio_button_nota_text_selector" />
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilRecenzie"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgNote"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:theme="@style/TextInputLayoutStyle"
+        app:boxCornerRadiusBottomEnd="0dp"
+        app:boxCornerRadiusBottomStart="@dimen/_10sdp"
+        app:boxCornerRadiusTopEnd="@dimen/_10sdp"
+        app:boxCornerRadiusTopStart="0dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="200">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietRecenzie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/recenzie"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLength="200"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/llButoane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilRecenzie"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTrimite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_butoane"
+            android:text="@string/trimite"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRenunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_butoane_secundare"
+            android:text="@string/renunta"
+            android:textAllCaps="false"
+            android:textColor="@color/custom_blue"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>
